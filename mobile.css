@@ -5,6 +5,13 @@
     box-sizing: border-box;
   }
 
+  body {
+    width: 23.6rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    contain: paint;
+  }
+
   :root {
     --lightpurple: #ff90e8;
     --darkyellow: #ffc900;
@@ -17,6 +24,7 @@
   }
   html {
     font-size: calc(100vw / 237 * 10);
+    overflow-x: hidden;
   }
   .gum {
     width: 11rem;
@@ -149,22 +157,6 @@
     margin-left: 1rem;
   }
 
-  /* .spiral {
-  background-color: var(--darkyellow);
-  border-radius: 82rem;
-  width: 130rem;
-  height: 40rem;
-  margin: 0 auto;
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  margin-top: 10rem;
-}
-
-*/
   .spiral {
     background-color: var(--darkyellow);
     width: 23.6rem;
@@ -668,7 +660,6 @@
     border-radius: 1rem;
     width: 21rem;
     margin-left: -1rem;
-    /* margin-bottom: -7rem; */
   }
 
   .tablogo {
@@ -692,7 +683,7 @@
     font-weight: 400;
     font-size: 2rem;
     width: 19rem;
-    /* margin-top: 1rem; */
+
     margin-left: 1rem;
   }
   .tabFooter {
@@ -833,6 +824,7 @@
   }
   .illustration {
     margin-bottom: -0.4rem;
+    width: 23.7rem;
   }
   .sharing {
     width: 23.7rem;
@@ -869,8 +861,7 @@
     color: white;
     width: 23.7rem;
     height: 62rem;
-    /* display: flex;
-  flex-direction: column; */
+
     padding: 15rem 8rem;
   }
   .sub {
